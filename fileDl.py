@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # 
 #
-#    Copyright 2013 Elad Cohen <eladco@gmail.com>
+#    Elad Cohen <eladco@gmail.com> 
 ##########################################
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU General Public License as published by
@@ -17,7 +17,7 @@
 #    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 ##########################################
 
-import urllib2
+import requests
 import os
 
 ## Download latest results.
