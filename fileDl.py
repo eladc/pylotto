@@ -31,7 +31,7 @@ def csvDl(u, file_size, file_name):
             if chunk: # filter out keep-alive new chunks
                 f.write(chunk)
                 f.flush()
-    f.close)
+    f.close()
 
 def fChk(draw): # check for an updated csv
     print 'Checking for updated csv file...'
